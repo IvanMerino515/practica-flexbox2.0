@@ -30,7 +30,44 @@ background-color: #19A1AE;
 
 }
 
-.globe-top{
-width: 622px;
+.container{
+overflow: flex;
+flex-direction: row;
+align-content: center;
+justify-items: center;
+width: 326px;
+height: 374px;
+margin-left: 10px;
+margin-right: 23px;
+background-color: white;
+border-radius: 15px;
+}
+
+.image{
+border-radius: 15px 15px 0 0px;
+}
+
+.avatar{
+display: flex;
+align-items: center;
+margin-bottom: 100px;
+margin-left: 115px;
+margin-top: -50px;
+width: 96px;
+height: 96px;
+border-radius: 50%;
+box-shadow: 0 0 0 50px  white;
 
 }
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-family: "Kumbh Sans", sans-serif;
+    padding-bottom: 4px;
+    gap: 8px;
+    margin-left: 0;
+}
+
